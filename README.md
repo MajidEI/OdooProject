@@ -1,3 +1,3 @@
 # OdooProject
 ***
-Still under development ..
+Still under development ...
