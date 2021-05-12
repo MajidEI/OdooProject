@@ -6,9 +6,10 @@
       <field name="model">import_records.import_records</field>
       <field name="arch" type="xml">
         <tree>
+          <field name="res_model" />
           <field name="file"/>
           <field name="file_type"/>
-          <button name="do" string="Import Invest" type="object"/>
+          <button name="import_file" string="Import Invest" type="object"/>
         </tree>
       </field>
     </record>
@@ -31,7 +32,7 @@
                       </strong>
                     </div>
                   <div class="o_kanban_button" >
-                      <button name="do" class="o_follow_btn o_follow btn btn-sm btn-primary oe_kanban_action oe_kanban_action_button" string="Import Invest" type="button"/>
+                      <button name="get_fields" class="o_follow_btn o_follow btn btn-sm btn-primary oe_kanban_action oe_kanban_action_button" string="Import Invest" type="button"/>
                   </div>
               </div>
           </t>
